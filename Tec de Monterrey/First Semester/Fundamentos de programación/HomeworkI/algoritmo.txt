@@ -1,0 +1,19 @@
+INPUT Write number
+Divide number by 100 and extract integer part
+Divide number by 10 and extract integer part
+
+Si el mod no da los digitos correctamente
+
+
+1.- Read the 3 digit number
+2.- Separe the digits
+3.- 
+
+x: number / 100
+y = (number / 10) % 10
+z = %10
+
+if (x == 1)
+print "one hundred"
+else i f(x == 29
+"two hundred"

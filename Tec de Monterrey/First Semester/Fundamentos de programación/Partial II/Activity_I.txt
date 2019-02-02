@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class ExerciseIII_Cycle2 
+{
+	public static void main(String args[])
+	{
+		Scanner stdIn = new Scanner(System.in);
+		int number = 1 + (int)(Math.random() * 100);
+		int input_num;
+		int attempt = 8;
+		System.out.print("In this programm the computer will choose a number between 1 to 100. Your task is "
+				+ "guess this number. In addition, you have only 8 attempts\n\n");
+		
+		
+		do
+		{
+			System.out.print("Number: ");
+			input_num = stdIn.nextInt();
+			if (input_num < number)
+				System.out.print("The random number is bigger.\n");
+			else if (input_num > number)
+				System.out.print("The random number is smaller.\n");
+			attempt--;
+		}
+		while ((number != input_num) && (attempt > 0));
+		
+		if (attempt != 0)
+			System.out.print("You are right! The number is: " + input_num + "");
+		else
+			System.out.print("You lose... But you can try it again!");
+		
+	}
+}
