@@ -5,17 +5,19 @@
     <meta charset = "UTF-8">
     <link rel = "stylesheet" href = "Style.css">
   </head>
+  <!-- This is the main content -->
   <body>
-      <h2>Computer Science</h2>
-      <p>Lambda Calculus and Linear Algebra are the best</p>
-      <table border="1">
+      <h1 class = "titleh1">Computer Science</h1>
+      <br>
+      <h2 class = "titleh2">Lambda Calculus and Linear Algebra are the best</h2>
+      <table border="5">
         <tr>
           <td>Lambda Calculus</td>
           <td>Linear Algebra</td>
           <td>Advanced Algebra</td>
         </tr>
         <tr>
-          <td>Arithmetic Fundamentals</td>
+          <td id="important">Arithmetic Fundamentals</td>
           <td>Euclidian Geometry</td>
           <td>Elemental Algebra</td>
         </tr>
@@ -24,8 +26,9 @@
           <td colspan="2">Theorical Programming Language</td>
         </tr>
       </table>
-      <div>
-        <input class = "InputText" type="text" name="Favorite topic" placeholder="Your favorite topic">
+      <div class = "input-text">
+        <input type="text" name="Favorite topic" placeholder="Your favorite topic">
+        <input type="button" value="SEND">
       </div>
   </body>
 </html>

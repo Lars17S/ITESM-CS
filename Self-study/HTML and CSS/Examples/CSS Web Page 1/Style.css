@@ -101,19 +101,25 @@ input, select {
     vertical-align:middle;
 }
 
-h2 {
-  color: #808080;
+/* My code */
+.titleh1 {
+  color: white;
   font-size: 50px;
   margin: 0px;
   background-color: black;
   text-align: center;
 }
-p {
-  color: white;
+
+.titleh2 {
+  color: gray;
   text-align: center;
   background-color: rgb(0, 0, 0);
 }
 
-.InputText {
+#important {
+  color: purple;
+}
+
+.input-text input {
   color: blue;
 }
