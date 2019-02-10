@@ -1,4 +1,10 @@
 body {
   margin: 0;
-  background-color: brown;
+  background-color: blue;
+}
+
+video {
+  position: absolute;
+  height: 100%;
+  opacity: 0.5;
 }
