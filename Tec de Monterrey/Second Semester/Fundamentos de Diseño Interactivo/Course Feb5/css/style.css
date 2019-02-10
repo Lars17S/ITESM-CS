@@ -1,10 +1,22 @@
 body {
   margin: 0;
-  background-color: blue;
+  background-color: brown;
 }
 
 video {
   position: absolute;
   height: 100%;
   opacity: 0.5;
+}
+
+h1{
+    position: absolute;
+    font-family: 'Sacramento', cursive;
+    color: white;
+    font-size: 171px;
+
+    margin: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
