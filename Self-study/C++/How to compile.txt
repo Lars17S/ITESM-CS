@@ -1,1 +1,2 @@
 g++ helloworld.cpp foo.cpp -o helloworld.exe
+g++ helloworld.cpp -o helloworld.exe

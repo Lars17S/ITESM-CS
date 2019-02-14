@@ -6,7 +6,7 @@ long long gcd(long long n, long long m);
 
 int main() {
   long long numCases, smallerValues, inputN, inputK;
-  long long i, j;
+    long long i, j;
   vector <long long> valueN;
   vector <long long> valueK;
 
