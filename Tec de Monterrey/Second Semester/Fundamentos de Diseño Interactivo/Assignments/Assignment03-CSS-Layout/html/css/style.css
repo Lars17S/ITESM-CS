@@ -50,17 +50,22 @@ table {
 /* MY CODE */
 
 body {
-	text-align: center;
+	margin: auto;
+	width: 960px;
+	background-color: #F5F5F5;
 }
 
-.upper-content {
-	margin-bottom: 30px;
+main > *, footer {
 	display: flex;
-	padding-bottom: 30px;
 	justify-content: space-between;
+	margin-bottom: 30px;
 }
 
-.medium-content .products {
+main .medium-content .column {
 	display: flex;
 	flex-direction: column;
 }
+
+/* footer #barronegro-img, #talavera-img, #tejidos-img {
+	margin-right: 4px;
+} */
