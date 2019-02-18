@@ -1,0 +1,28 @@
+nav {
+  height: 50px;
+  background-color: cadetblue;
+}
+
+.wrapper {
+  width: 900;
+  margin: auto;
+}
+
+header {
+  height: 260px;
+  background-color: #b8dee7;
+  display: flex;
+}
+
+#sidebar {
+  width: 240px;
+  height: 650px;
+  background-color: #dceef4;
+  float: left;
+}
+
+main {
+  width: 660px;
+  height: 650px;
+  background-color:aquamarine;
+}
